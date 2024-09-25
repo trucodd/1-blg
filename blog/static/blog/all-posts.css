@@ -1,0 +1,30 @@
+/* General body styling */
+body {
+    background-color: #FFFFFF;
+    color: #0bb79b;
+    font-family: Arial, sans-serif;
+}
+
+#all_posts {
+    padding: 40px;
+    max-width: 1200px; /* Set a fixed max-width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    
+}
+
+#all_posts h2 {
+    color: #8bd9cb;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between posts */
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    justify-content: center; /* Center the posts inside the container */
+}

@@ -1,0 +1,23 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "emmet.useInlineCompletions": true,
+  "json.schemas": [
+      
+  ],
+  "emmet.includeLanguages": {
+      "django-html": "html"
+  },
+  "launch": {
+
+      "configurations": [{
+    "name": "Extension",
+    "type": "extensionHost",
+    "request": "launch",
+    "runtimeExecutable": "${execPath}",
+    "args": [
+      "--extensionDevelopmentPath=${workspaceFolder}"
+    ]
+  }],
+      "compounds": []
+  }
+} 

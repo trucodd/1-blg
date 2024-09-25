@@ -1,0 +1,205 @@
+/* Styling for the summary section */
+#summary {
+    padding: 20px;
+    background-color: #87ccc1;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+#summary h2 {
+    font-size: 2.5rem;
+    text-align: right;
+    
+    flex: 1;
+}
+
+#summary article {
+    flex: 1;
+    text-align: right;
+}
+
+#summary img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#summary address {
+    font-style: normal;
+    color: #ecfbf8;
+    margin-top: 10px;
+    display: block;
+}
+
+#summary date {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* Styling for the tags */
+.tag {
+    background-color: #ecfbf8;
+    color: #56c3b1;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+#summary .tags {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* Styling for the Read Later button */
+#read-later {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#read-later form {
+    display: inline-block;
+}
+
+#read-later button {
+    padding: 10px 20px;
+    background-color: #0bb79b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#read-later button:hover {
+    background-color: #0a9b86;
+}
+
+#read-later button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 183, 155, 0.5);
+}
+
+
+/* Styling for main content */
+main {
+    background-color: #ffffff;
+    color: #0bb79b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Styling for the comments section */
+#comments {
+    margin-top: 20px;
+    max-width: 800px; /* Increased width for the comments section */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#comments ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#comments li {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-left: 5px solid #a6e3d9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem; /* Slightly larger font size */
+}
+
+#comments li h2 {
+    font-size: 1.2rem; /* Slightly larger font size for username */
+    color: #333;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+#comments li p {
+    font-size: 1rem; /* Slightly larger font size for comment text */
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+    word-wrap: break-word; /* Ensures text doesn't overflow */
+}
+
+#comments li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Styling for the comment form */
+#comment-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+#comment-form h2 {
+    color: #70d5c3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#comment-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #0bb79b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #089a83;
+}

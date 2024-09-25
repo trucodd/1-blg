@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #0bb79b;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0bb79b;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header h1 a:hover {
+    color: #8bd9cb;
+}
+
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+header nav a:hover {
+    color: #8bd9cb;
+    text-decoration: underline;
+}
+
+/* Add a background to the content area to make it stand out */
+main {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for navigation */
+.box-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Links within the content */
+a {
+    color: #0bb79b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8bd9cb;
+}
+
+/* Styling the header in sections like the "about me" block */
+section header {
+    background-color: #0bb79b;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+}

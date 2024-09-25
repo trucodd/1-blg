@@ -4,3 +4,4 @@ db.sqlite3
 uploads/
 blog/static/blog/images
 django_my_site/
+".vscode/" 
